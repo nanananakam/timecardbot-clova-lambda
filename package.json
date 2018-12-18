@@ -1,0 +1,9 @@
+{
+  "name": "timecardbot-clova-lambda",
+  "version": "0.0.1",
+  "description": "ClovaのタイムカードbotのLambdaバックエンド",
+  "devDependencies": {
+    "@line/bot-sdk": "^6.4.0",
+    "@line/clova-cek-sdk-nodejs": "^1.1.1"
+  }
+}
