@@ -36,7 +36,7 @@ const clovaSkillHandler = clova.Client
         break;
       case "PunchOutIntent":
         message.text = "退勤 " + now.toLocaleDateString("ja-JP") + " " + now.toLocaleTimeString("ja-JP");
-        await client.pushMessage(userId, "退勤")
+        await client.pushMessage(userId, message)
           .catch( err => {
             console.log("-- err ---");
             console.log(util.inspect(err), false, null);
